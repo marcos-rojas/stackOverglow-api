@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/questions/61f48d1a1d815e136ecd8f40/answers HTTP/1.1
+content-type: application/json
+
+{
+    "answer":{
+      "body": "You can install the connect package",
+      "rating": 3
+    }
+}
+

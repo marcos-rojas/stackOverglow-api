@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/questions HTTP/1.1
+content-type: application/json
+
+{
+    "title": "My first time saving all",
+    "body": "New features are not understandable"
+}
+

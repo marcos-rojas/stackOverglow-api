@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/questions
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZjYxOTQ1OGNkNTNjMTE3ZDEyYTdmZCIsInVzZXJuYW1lIjoicGVwcGEyIiwiaWF0IjoxNjQzNTM0MDY5LCJleHAiOjE2NDQxMzg4Njl9.hI836-4L0aIfsZ0jttGsqPrVCBHLx2Iuj5YMG31SpTw
+
+{
+    "title": "Porque esto sí funciona",
+    "body": "New features are not understandable"
+}
